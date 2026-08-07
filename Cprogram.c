@@ -8,6 +8,6 @@ scanf("%d%d%d",&a,&b,&c);
 sum=a+b+c;
 avg= (float)sum/3;
 printf("The Summation of Three Number is =%d",sum);
-printf("The Average of Three Number is =%.3f",avg);
+printf(\n"The Average of Three Number is =%.3f",avg);
 return 0;
 }
