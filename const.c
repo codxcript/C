@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    const char NAME = 'A';
+    const char name[5] = "Asif";
     const int HEIGHT = 8;
     const float PI = 3.1416;
-    const char letterSeq[5] = "ABC";
-    printf("\nvalue of name: %c\n", NAME);
-    printf("\nvalue of height: %d\n", HEIGHT);
-    printf("\nvalue of pi: %f\n", PI);
-    printf("\nvalue of letter sequence: %s\n", letterSeq);
+    const char LETTERSEQ[6] = "ABCDE";
+    printf("value of name :\t\t\t%s\n", name);
+    printf("value of height :\t\t%d\n", HEIGHT);
+    printf("value of pi :\t\t\t%f\n", PI);
+    printf("value of letter sequence:\t%s\n", LETTERSEQ);
     return 0;
 }
